@@ -96,7 +96,7 @@ gameCount++;
 if (playerScore>computerScore) {
     console.log('You won the best of 5 rounds');
 }
-else if (playersScore<computerScore) {
+else if (playerScore<computerScore) {
     console.log('You lost to a computer, how sad');
 }
 else console.log('After 5 rounds, it was a tie');
