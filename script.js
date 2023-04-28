@@ -8,19 +8,20 @@ function getComputerChoice() {
     let max = 3;
     switch (Math.floor(Math.random() * 3 + 1)) {
     case 1:
-        return "Rock";
+        return "rock";
     case 2:
-        return "Paper";
+        return "paper";
     case 3:
-        return "Scissors";
+        return "scissors";
     }
 }
 
 //getPlayerChoice prompts user for "rock", "paper", or "scissors"
-//and returns the enter value (will be updated to verify input)
+//and returns the entered value (will be updated to verify input)
 
 function getPlayerChoice() {
-return prompt("Enter 'rock', 'paper', or 'scissors'");
-}
+    let playerChoice =  prompt("Enter 'rock', 'paper', or 'scissors'");
+        return playerChoice.toLowerCase();
+    }
 
 console.log(getPlayerChoice());
