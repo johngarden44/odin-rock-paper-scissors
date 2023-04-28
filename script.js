@@ -16,4 +16,11 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice());
+//getPlayerChoice prompts user for "rock", "paper", or "scissors"
+//and returns the enter value (will be updated to verify input)
+
+function getPlayerChoice() {
+return prompt("Enter 'rock', 'paper', or 'scissors'");
+}
+
+console.log(getPlayerChoice());
